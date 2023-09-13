@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.card {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 400px;
+  padding: 10px;
+}
+
+.card button {
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #5f94f5;
+  padding: 4px;
+}
