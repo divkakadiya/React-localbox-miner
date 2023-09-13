@@ -2,19 +2,46 @@
   text-align: center;
 }
 
+.form {
+  border: 2px solid grey;
+  width: 300px;
+  margin: 2vw 0 1vw;
+  border-radius: 10px;
+  padding: 1vw;
+}
+
+form input {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 8px;
+  width: 200px;
+  margin-bottom: 1vw;
+}
+
+form textarea {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 8px;
+  width: 200px;
+  height: 50px;
+  margin-bottom: 0.9vw;
+  resize: none;
+}
+
+button {
+  background-color: #5f94f5;
+  border: none;
+  outline: none;
+  width: 80px;
+  padding: 7px;
+  border-radius: 10px;
+  color: white;
+}
+
 .card {
   margin: 0 auto;
   margin-bottom: 10px;
-  width: 400px;
-  padding: 10px;
-}
-
-.card button {
-  width: 100px;
-  border-radius: 10px;
-  border: none;
-  outline: none;
-  color: white;
-  background-color: #5f94f5;
-  padding: 4px;
+  width: 325px;
+  padding: 5px;
+  border-radius: 20px;
 }
